@@ -58,6 +58,10 @@ section h2 {
     padding: 0px;
 }
 
+#aboutGrid p {
+    font-size: 1.5rem;
+}
+
 #aboutGrid img {
     padding: 10px;
     border-radius: 16px;

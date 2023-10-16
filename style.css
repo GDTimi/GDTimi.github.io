@@ -1,4 +1,17 @@
 
+/* Navbar setup */
+#navigationBar {
+    display: flex;
+}
+
+.navItem {
+    font-size: 2rem;
+    font-weight: bolder;
+    text-decoration: none;
+
+    margin: 5px 15px;
+    color: inherit;
+}
 
 body {
     margin: 0 auto;

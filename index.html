@@ -11,16 +11,24 @@
 <body>
     <!--Main header section, with navbar-->
     <header>
-        <nav style="background-color: cornflowerblue;">
-            Navbar content goes here
-        </nav>   
+        <div>
+            <nav id="navigationBar" style="background-color: cornflowerblue;">
+                <a class="navItem" href="#sectionAbout">About</a>
+                <a class="navItem" href="#sectionPortfolio">Portfolio</a>
+                <a class="navItem" href="#sectionContact">Contact</a>
+            </nav>   
+        </div>
+
     </header>
 
     <!--Main content sections-->
     <main>
         <!--About section-->
-        <section style="background-color:powderblue">
+        <section id="sectionAbout" style="background-color:powderblue">
             <div style="display: grid; grid-template-columns: 2;">
+                <div>
+                    
+                </div>
                 <h2>About</h2>
 
                 About content goes here
@@ -29,7 +37,7 @@
         </section>
 
         <!--Portfolio section-->
-        <section style="background-color: cornflowerblue;">
+        <section id="sectionPortfolio" style="background-color: cornflowerblue;">
             <div style="display: grid;">
                 <h2>Portfolio</h2>
                 Portfolio content goes here                
@@ -38,7 +46,7 @@
         </section>
 
         <!--Contact section-->
-        <section style="background-color:powderblue">
+        <section id="sectionContact" style="background-color:powderblue">
             <div style="display: grid;">
                 <h2>Contact</h2>
                 Contact info goes here

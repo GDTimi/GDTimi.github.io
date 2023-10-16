@@ -11,6 +11,14 @@
 
     margin: 5px 15px;
     color: inherit;
+
+    transition: all 0.25s;
+    transform: scale(1);
+}
+
+.navItem:hover {
+    color:aliceblue;
+    transform: scale(1.07);    
 }
 
 body {

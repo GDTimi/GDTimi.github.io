@@ -58,6 +58,12 @@ section h2 {
     padding: 0px;
 }
 
+@media screen and (max-width: 800px){ 
+    #aboutGrid { 
+    grid-template-columns: 1fr;
+    } 
+} 
+
 #aboutGrid p {
     font-size: 1.5rem;
 }

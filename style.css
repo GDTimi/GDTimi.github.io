@@ -1,9 +1,12 @@
 
+
 /* Navbar setup */
 #navigationBar {
     display: flex;
     position: fixed;
     width: 100%;
+    top: 0px;
+    height: 50px;
 }
 
 .navItem {
@@ -21,6 +24,16 @@
 .navItem:hover {
     color:aliceblue;
     transform: scale(1.07);    
+}
+
+/* Main content setup */
+main {
+    margin-top: 50px;
+}
+
+/* Content section setup */
+section {
+    padding: 30px 30px;;
 }
 
 /* About Section setup */

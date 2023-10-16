@@ -21,6 +21,19 @@
     transform: scale(1.07);    
 }
 
+/* About Section setup */
+#sectionAbout {
+    display: grid;
+}
+
+#aboutGrid {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 50px;
+    font-size: 1.25rem;
+    padding: 10px;
+}
+
 body {
     margin: 0 auto;
 }

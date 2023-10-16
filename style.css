@@ -26,7 +26,7 @@ body {
 
 .navItem:hover {
     color:aliceblue;
-    transform: scale(1.07);    
+    transform: scale(1.08);    
 }
 
 /* Main content setup */
@@ -41,6 +41,8 @@ section {
 
 section h2 {
     font-size: 2.5rem;
+    margin: 35px 0px 10px 0px;
+    /* padding: 0px 5px; */
 }
 
 /* About Section setup */
@@ -53,7 +55,7 @@ section h2 {
     grid-template-columns: 2fr 1fr;
     gap: 50px;
     font-size: 1.25rem;
-    padding: 10px;
+    padding: 0px;
 }
 
 #aboutGrid img {

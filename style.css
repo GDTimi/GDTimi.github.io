@@ -17,7 +17,7 @@ body {
     font-weight: bolder;
     text-decoration: none;
 
-    margin: 5px 15px;
+    margin: 10px 15px;
     color: inherit;
 
     transition: all 0.25s;
@@ -37,6 +37,10 @@ main {
 /* Content section setup */
 section {
     padding: 30px 30px;;
+}
+
+section h2 {
+    font-size: 2.5rem;
 }
 
 /* About Section setup */

@@ -45,6 +45,10 @@ section h2 {
     /* padding: 0px 5px; */
 }
 
+section p {
+    font-size: 1.5rem;
+}
+
 /* About Section setup */
 #sectionAbout {
     display: grid;
@@ -67,10 +71,6 @@ section h2 {
         order: -1;
     }
 } 
-
-#aboutGrid p {
-    font-size: 1.5rem;
-}
 
 #aboutImage {
     margin: 0px auto;;

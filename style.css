@@ -1,6 +1,9 @@
+/* All content setup */
+body {
+    margin: 0 auto;
+}
 
-
-/* Navbar setup */
+/* Header Navbar setup */
 #navigationBar {
     display: flex;
     position: fixed;
@@ -49,6 +52,21 @@ section {
     padding: 10px;
 }
 
-body {
-    margin: 0 auto;
+/* Footer navReturn setup */
+#navigationFooter {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    font-size: 1.25rem;
+     padding: 5px 0px; 
+
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+}
+
+#navFooter {
+    font-size: 1.25rem;
+    transition: all 0.25s;
+    transform: scale(1);
 }

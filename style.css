@@ -2,6 +2,8 @@
 /* Navbar setup */
 #navigationBar {
     display: flex;
+    position: fixed;
+    width: 100%;
 }
 
 .navItem {

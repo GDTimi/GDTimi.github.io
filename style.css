@@ -53,7 +53,7 @@ section h2 {
 #aboutGrid {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    gap: 50px;
+    gap: 0px;
     font-size: 1.25rem;
     padding: 0px;
 }
@@ -62,14 +62,22 @@ section h2 {
     #aboutGrid { 
     grid-template-columns: 1fr;
     } 
+
+    #aboutImage {
+        order: -1;
+    }
 } 
 
 #aboutGrid p {
     font-size: 1.5rem;
 }
 
-#aboutGrid img {
-    padding: 10px;
+#aboutImage {
+    margin: 0px auto;;
+}
+
+#aboutImage img {
+    padding: 5px;
     border-radius: 16px;
 }
 

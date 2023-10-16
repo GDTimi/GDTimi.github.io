@@ -31,12 +31,12 @@ body {
 
 /* Main content setup */
 main {
-    margin-top: 50px;
+    margin-top: 0px;
 }
 
 /* Content section setup */
 section {
-    padding: 30px 30px;;
+    padding: 30px 30px;
 }
 
 section h2 {
@@ -50,10 +50,23 @@ section h2 {
 
 #aboutGrid {
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 2fr 1fr;
     gap: 50px;
     font-size: 1.25rem;
     padding: 10px;
+}
+
+#aboutGrid img {
+    padding: 10px;
+}
+
+/* #aboutGrid p {
+    font-size: 1rem;
+} */
+
+/* Contact section setup */
+#sectionContact {
+    margin-bottom: 20px;
 }
 
 /* Footer navReturn setup */
@@ -62,7 +75,7 @@ section h2 {
     grid-template-columns: 1fr 1fr;
     gap: 80px;
     font-size: 1.25rem;
-     padding: 5px 0px; 
+    padding: 5px 0px; 
 
     position: fixed;
     width: 100%;

@@ -1,0 +1,21 @@
+{
+    "projects": [
+      {
+        "name": "Project 1",
+        "description": "Project description goes here.",
+        "imageMain": "Main image link goes here."
+      },
+      
+      {
+        "name": "Project 2",
+        "description": "Project description goes here.",
+        "imageMain": "Main image link goes here."
+      },
+      
+      {
+        "name": "Project 3",
+        "description": "Project description goes here.",
+        "imageMain": "Main image link goes here"
+      }
+    ]
+  }

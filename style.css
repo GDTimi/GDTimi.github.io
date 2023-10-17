@@ -189,6 +189,16 @@ section p {
     text-align: center;
 
     background-color: var(--portfolio-item-bg-colour);    
+
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px;
+}
+
+.portfolioItemLinksContainer {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
 
 /* Contact section setup */

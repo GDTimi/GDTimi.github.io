@@ -113,6 +113,16 @@ section p {
     } 
 } 
 
+.portfolioItemContainer {
+    width:600px; 
+    min-height: 200px; 
+    margin: 0 auto; 
+    
+    background-color: darkgray; 
+    border-radius: 10px;
+     
+}
+
 /* Contact section setup */
 #sectionContact {
     margin-bottom: 20px;

@@ -20,13 +20,21 @@ body {
     margin: 10px 15px;
     color: inherit;
 
+    /* padding: 0 0px; */
+    padding: 0px 3px 32px 3px;
+    border-bottom: 3px solid black;
+    border-radius: 0px;
+
     transition: all 0.25s;
     transform: scale(1);
 }
 
 .navItem:hover {
     color:aliceblue;
-    transform: scale(1.08);    
+    transform: scale(1.08);   
+    
+    border-bottom: 4px solid lightgoldenrodyellow;
+    border-radius: 7px;
 }
 
 /* Main content setup */

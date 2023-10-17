@@ -106,7 +106,7 @@ section p {
 #portfolioDisplay {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    gap: 40px;
     margin: 20px 5px;
 
 }
@@ -130,7 +130,15 @@ section p {
     border-radius: 10px;
 
     box-shadow: -0 6px 8px lightblue;
+
+    transition: all 0.25s;
+    transform: scale(1);    
      
+}
+
+.portfolioItemContainer:hover {
+    transform: scale(1.05);   
+
 }
 
 .portfolioItemTitle {

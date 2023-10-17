@@ -121,12 +121,16 @@ section p {
     min-height: 200px; 
     margin: 0 auto; 
     
-    background-color: darkgray; 
+    background-color: darkslategray; 
     border-radius: 10px;
+
+    box-shadow: -0 6px 8px lightblue;
      
 }
 
 .portfolioItemTitle {
+    grid-column: span 2;
+
     font-size: 1.75rem;
     margin: 0px 10px;
     padding: 10px auto;

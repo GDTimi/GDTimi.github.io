@@ -115,6 +115,7 @@ section p {
 
 .portfolioItemContainer {
     display: grid;
+    grid-template-columns: 2fr 1fr;
 
     min-width: 360px; 
     min-height: 200px; 

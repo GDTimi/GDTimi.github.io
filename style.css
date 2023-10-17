@@ -131,15 +131,15 @@ section p {
 
     box-shadow: -0 6px 8px lightblue;
 
-    transition: all 0.25s;
-    transform: scale(1);    
+    /* transition: all 0.25s;
+    transform: scale(1);     */
      
 }
 
-.portfolioItemContainer:hover {
+/* .portfolioItemContainer:hover {
     transform: scale(1.05);   
 
-}
+} */
 
 .portfolioItemTitle {
     grid-column: span 2;

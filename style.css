@@ -97,9 +97,20 @@ section p {
     border-radius: 16px;
 }
 
-/* #aboutGrid p {
-    font-size: 1rem;
-} */
+/* Portfolio section setup */
+#portfolioDisplay {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 20px;;
+
+}
+
+@media screen and (max-width: 800px){ 
+    #portfolioDisplay { 
+    grid-template-columns: 1fr;
+    } 
+} 
 
 /* Contact section setup */
 #sectionContact {

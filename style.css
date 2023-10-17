@@ -1,4 +1,8 @@
 /* All content setup */
+:root {
+    --portfolio-item-bg-colour: lightcyan;
+}
+
 body {
     margin: 0 auto;
 }
@@ -136,7 +140,7 @@ section p {
     padding: 10px auto;
     text-align: center;
 
-    background-color: lightcyan;
+    background-color: var(--portfolio-item-bg-colour);
 
 }
 
@@ -146,7 +150,7 @@ section p {
     padding: 10px 10px;
     text-align: left;
 
-    background-color: lightcyan;
+    background-color: var(--portfolio-item-bg-colour);
 
 }
 

@@ -180,6 +180,17 @@ section p {
     object-fit: contain;
 }
 
+.portfolioItemLinks {
+    grid-column: span 2;
+
+    font-size: 1.75rem;
+    margin: 0px 10px;
+    padding: 10px auto;
+    text-align: center;
+
+    background-color: var(--portfolio-item-bg-colour);    
+}
+
 /* Contact section setup */
 #sectionContact {
     margin-bottom: 20px;

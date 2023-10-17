@@ -153,6 +153,10 @@ section p {
 
 }
 
+.portfolioItemTitle h3 {
+    margin: 10px auto;
+}
+
 .portfolioItemDescription{
     font-size: 1.25rem;
     margin: 0px 10px;

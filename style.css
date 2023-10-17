@@ -154,6 +154,22 @@ section p {
 
 }
 
+.portfolioItemImage{
+    margin: 10px auto;
+    padding: 10px;
+
+
+
+}
+
+.portfolioItemImage img {
+    max-width: 95%;
+    min-width: 140px;
+    margin: 10px auto;
+    height: auto;
+    object-fit: contain;
+}
+
 /* Contact section setup */
 #sectionContact {
     margin-bottom: 20px;

@@ -27,7 +27,8 @@ body {
 
     /* padding: 0 0px; */
     padding: 0px 3px 32px 3px;
-    border-bottom: 3px solid black;
+    border-bottom: 2px solid rgba(47, 79, 79, 0.45);
+    
     border-radius: 0px;
 
     transition: all 0.25s;
@@ -38,7 +39,7 @@ body {
     color:aliceblue;
     transform: scale(1.08);   
     
-    border-bottom: 4px solid lightgoldenrodyellow;
+    border-bottom: 8px solid lightgoldenrodyellow;
     border-radius: 7px;
 }
 

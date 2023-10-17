@@ -83,7 +83,7 @@ section p {
     padding: 0px;
 }
 
-@media screen and (max-width: 800px){ 
+@media screen and (max-width: 850px){ 
     #aboutGrid { 
     grid-template-columns: 1fr;
     } 
@@ -111,7 +111,7 @@ section p {
 
 }
 
-@media screen and (max-width: 800px){ 
+@media screen and (max-width: 850px){ 
     #portfolioDisplay { 
     grid-template-columns: 1fr;
     } 

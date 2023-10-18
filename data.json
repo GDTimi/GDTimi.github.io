@@ -5,27 +5,37 @@
         "description": "Project description goes here. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam soluta obcaecati aut ipsa temporibus? Autem, veniam temporibus architecto voluptates dolores rerum earum explicabo similique dolorem dicta eum minus ratione. At.",
         "imageMain": "images/portfolioImageNotAvailable.png",
         "projectLinks": [
-          {"linkURL": "https://", "linkType": "Steam"},
-          {"linkURL": "https://", "linkType": "PlayStore"},
-          {"linkURL": "https://", "linkType": "AppStore"},
-          {"linkURL": "https://", "linkType": "GitHub"}
+          {"linkURL": "https://github.com/GDTimi/portfolio", "linkType": "GitHub"}
+        ]
+      },
+
+      {
+        "name": "Fruitalistic!",
+        "description": "Project description goes here. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam soluta obcaecati aut ipsa temporibus? Autem, veniam temporibus architecto voluptates dolores rerum earum explicabo similique dolorem dicta eum minus ratione. At.",
+        "imageMain": "images/gameFruitalistic/Presskit_Fruitalistic_Screenshot_1(Tablet).png",
+        "projectLinks": [
+          {"linkURL": "https://store.steampowered.com/app/2513180/Fruitalistic/", "linkType": "Steam"},
+          {"linkURL": "https://play.google.com/store/apps/details?id=uk.co.AToPlay.Fruitalistic", "linkType": "PlayStore"},
+          {"linkURL": "https://apps.apple.com/us/app/fruitalistic/id6450742294?ls=1", "linkType": "AppStore"}
         ]
       },
       
       {
-        "name": "Project 2",
-        "description": "Project description goes here. ",
-        "imageMain": "images/portfolioImageNotAvailable.png"
+        "name": "Flight of the Athena",
+        "description": "Project description goes here. And so forth and so forth",
+        "imageMain": "images/gameFlightOfTheAthena/PressKit_Flight_of_the_Athena_Screenshot_1.jpg",
+        "projectLinks": [
+          {"linkURL": "https://store.steampowered.com/app/751940/Flight_of_the_Athena/", "linkType": "Steam"}
+        ]
       },
       
       {
         "name": "Pachoink!",
         "description": "Project description goes here. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam soluta obcaecati aut ipsa temporibus? Autem, veniam temporibus architecto voluptates dolores rerum earum explicabo similique dolorem dicta eum minus ratione. At.",
-        "imageMain": "I'm an invalid image link",
+        "imageMain": "images/gamePachoink/PressKit_Screenshot_1(iPad_Pro_3rd_Gen).png",
         "projectLinks": [
-          {"linkURL": "http://", "linkType": "PlayStore"},
-          {"linkURL": "http://www.AToPlay.co.uk", "linkType": "AppStore"},
-          {"linkURL": "http://www.ALinkWithNoLinkTypeData.com"}
+          {"linkURL": "https://play.google.com/store/apps/details?id=uk.co.AToPlay.Pachoink", "linkType": "PlayStore"},
+          {"linkURL": "https://apps.apple.com/us/app/pachoink/id1488272669?ls=1", "linkType": "AppStore"}
         ]
       }
     ]

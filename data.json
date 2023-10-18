@@ -4,7 +4,12 @@
         "name": "Project 1",
         "description": "Project description goes here.",
         "imageMain": "images/portfolioImageNotAvailable.png",
-        "projectLinks": [{"linkURL": "https://", "linkType": "Steam"}]
+        "projectLinks": [
+          {"linkURL": "https://", "linkType": "Steam"},
+          {"linkURL": "https://", "linkType": "PlayStore"},
+          {"linkURL": "https://", "linkType": "AppStore"},
+          {"linkURL": "https://", "linkType": "GitHub"}
+        ]
       },
       
       {

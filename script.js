@@ -4,7 +4,7 @@ fetch("data.json").then(function (response) {
 }). then(function(data) {
 
     //Debug check the data
-    console.log(data);
+    //console.log(data);
 
     //Select where to display the data    
     const displayTarget = document.querySelector("#portfolioDisplay");
@@ -12,8 +12,28 @@ fetch("data.json").then(function (response) {
     //Empty string to build up with HTML + project data
     let output = '';
      
+    //Loop through the portfolio items
+    data.projects.forEach(function (project){
 
-     
+        //Create the project item class div
+        output += '<div class="portfolioItemContainer">';
+
+        //Add the project title
+        output += `<div class="portfolioItemTitle"><h3>${project.name}</h3></div>`;
+
+        //Add the project description
+        output += `<div class="portfolioItemDescription">${project.description}</div>`;
+
+        //Add the project image
+        output += `
+        <div class="portfolioItemImage">
+            <img src="${project.imageMain}" onerror="javascript:this.src='images/portfolioImageNotAvailable.png'" alt="Main portfolio project image for ${project.name}" />
+        </div>
+        `;
+
+        //Close out the project item div
+        output += '</div>';
+    })
 
     //Update the display target
     displayTarget.innerHTML += output;

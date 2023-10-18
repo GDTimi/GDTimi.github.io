@@ -3,19 +3,19 @@
       {
         "name": "Project 1",
         "description": "Project description goes here.",
-        "imageMain": "Main image link goes here."
+        "imageMain": "images/portfolioImageNotAvailable.png"
       },
       
       {
         "name": "Project 2",
         "description": "Project description goes here.",
-        "imageMain": "Main image link goes here."
+        "imageMain": "images/portfolioImageNotAvailable.png"
       },
       
       {
         "name": "Project 3",
         "description": "Project description goes here.",
-        "imageMain": "Main image link goes here"
+        "imageMain": "images/portfoltAvailable.png"
       }
     ]
   }

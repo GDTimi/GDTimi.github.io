@@ -31,6 +31,23 @@ fetch("data.json").then(function (response) {
         </div>
         `;
 
+        //Add the project links section start
+        output += `
+        <div class="portfolioItemLinks">
+            <div>Project links:</div>
+            <div class="portfolioItemLinksContainer">
+            `;
+
+        //Parse and add the projects link data
+        
+
+        //Add the project links section finish
+        output += `
+            </div>
+        </div>       
+        `;
+
+
         //Close out the project item div
         output += '</div>';
     })

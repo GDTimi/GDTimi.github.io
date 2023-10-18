@@ -3,7 +3,8 @@
       {
         "name": "Project 1",
         "description": "Project description goes here.",
-        "imageMain": "images/portfolioImageNotAvailable.png"
+        "imageMain": "images/portfolioImageNotAvailable.png",
+        "projectLinks": [{"linkURL": "https://", "linkType": "Steam"}]
       },
       
       {

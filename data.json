@@ -1,7 +1,7 @@
 {
     "projects": [
       {
-        "name": "Project 1",
+        "name": "Portfolio website project",
         "description": "Project description goes here. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam soluta obcaecati aut ipsa temporibus? Autem, veniam temporibus architecto voluptates dolores rerum earum explicabo similique dolorem dicta eum minus ratione. At.",
         "imageMain": "images/portfolioImageNotAvailable.png",
         "projectLinks": [
@@ -19,9 +19,14 @@
       },
       
       {
-        "name": "Project 3",
+        "name": "Pachoink!",
         "description": "Project description goes here. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam soluta obcaecati aut ipsa temporibus? Autem, veniam temporibus architecto voluptates dolores rerum earum explicabo similique dolorem dicta eum minus ratione. At.",
-        "imageMain": "I'm an invalid image link"
+        "imageMain": "I'm an invalid image link",
+        "projectLinks": [
+          {"linkURL": "http://", "linkType": "PlayStore"},
+          {"linkURL": "http://www.AToPlay.co.uk", "linkType": "AppStore"},
+          {"linkURL": "http://www.ALinkWithNoLinkTypeData.com"}
+        ]
       }
     ]
   }

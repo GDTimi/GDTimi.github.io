@@ -208,6 +208,14 @@ section p {
     gap: 5px;
 }
 
+.portfolioItemLinks h4 {
+    margin: 10px;
+}
+
+.portfolioItemLinks a {
+    font-size: 1rem;
+}
+
 .portfolioItemLinksContainer {
     display: flex;
     flex-wrap: wrap;

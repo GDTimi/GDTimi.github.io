@@ -38,7 +38,58 @@ fetch("data.json").then(function (response) {
             `;
 
         //Parse and add the projects link data
+        //console.log(project.projectLinks); 
+        let projectLinksArray = project.projectLinks;
 
+        //If no links array is present for this project
+        if (projectLinksArray === undefined){
+            //Add the no links text
+            output += "No links are available for this project."
+        }
+        else{
+            //Iterate through the links array, creating appropriate links based on the linkType property
+            projectLinksArray.forEach(function (linkItem){
+                console.log(linkItem)
+                
+                let linkURL = linkItem.linkURL;
+                let linkImage = undefined;
+                let linkDescriptionSuffix = "";
+
+                //Parse the link type
+                switch(linkItem.linkType){
+                    case "AppStore":
+                    linkImage = "https://img.shields.io/badge/App_Store-0D96F6?style=for-the-badge&logo=app-store&logoColor=white";
+                    linkDescriptionSuffix = "the App Store";
+                    break;
+
+                    case "GitHub":
+                    linkImage = "https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white";
+                    linkDescriptionSuffix = "GitHub";
+                    break;
+
+                    case "PlayStore":
+                    linkImage = "https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=google-play&logoColor=white";
+                    linkDescriptionSuffix = "the Play Store";
+                    break;
+                    
+                    case "Steam":
+                    linkImage = "https://img.shields.io/badge/steam-%23000000.svg?style=for-the-badge&logo=steam&logoColor=white";
+                    linkDescriptionSuffix = "Steam";
+                    break;
+                }
+
+                //If no recognised link image has been found
+                if(linkImage === undefined){
+                    //Add the URL just by itself
+                    output += `<a href="${linkURL}">${linkURL}</a>`;
+                } else {
+                    //Process the linked image alongside the URL
+                    output += `<a href="${linkURL}" target="_blank"><img src="${linkImage}"  alt="Link to ${project.name} on ${linkDescriptionSuffix}" /></a>`;
+                }
+
+            })
+
+        }
 
         //Add the project links section finish
         output += `

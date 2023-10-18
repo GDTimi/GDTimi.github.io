@@ -2,7 +2,7 @@
     "projects": [
       {
         "name": "Project 1",
-        "description": "Project description goes here.",
+        "description": "Project description goes here. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam soluta obcaecati aut ipsa temporibus? Autem, veniam temporibus architecto voluptates dolores rerum earum explicabo similique dolorem dicta eum minus ratione. At.",
         "imageMain": "images/portfolioImageNotAvailable.png",
         "projectLinks": [
           {"linkURL": "https://", "linkType": "Steam"},
@@ -14,13 +14,13 @@
       
       {
         "name": "Project 2",
-        "description": "Project description goes here.",
+        "description": "Project description goes here. ",
         "imageMain": "images/portfolioImageNotAvailable.png"
       },
       
       {
         "name": "Project 3",
-        "description": "Project description goes here.",
+        "description": "Project description goes here. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam soluta obcaecati aut ipsa temporibus? Autem, veniam temporibus architecto voluptates dolores rerum earum explicabo similique dolorem dicta eum minus ratione. At.",
         "imageMain": "I'm an invalid image link"
       }
     ]

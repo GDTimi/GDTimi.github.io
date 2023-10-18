@@ -120,7 +120,7 @@ section p {
 
 .portfolioItemContainer {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr;
 
     min-width: 360px; 
     min-height: 200px; 
@@ -143,9 +143,8 @@ section p {
 } */
 
 .portfolioItemTitle {
-    grid-column: span 2;
 
-    font-size: 1.75rem;
+    font-size: 2rem;
     margin: 0px 10px;
     padding: 10px auto;
     text-align: center;
@@ -159,12 +158,14 @@ section p {
 }
 
 .portfolioItemDescription{
-    font-size: 1.25rem;
+    font-size: 1.75rem;
     margin: 0px 10px;
     padding: 10px 10px;
     text-align: left;
 
     background-color: var(--portfolio-item-bg-colour);
+
+    float:none; 
 
 }
 
@@ -173,20 +174,27 @@ section p {
     padding: 5px;
 
     background-color:lightsteelblue;
-    border-radius: 0px;
+    border-radius: 10px;
     box-shadow: 0px 0px 20px lightsteelblue;
+
+    float:right;
+    width:40%; 
+    background:darkslategray; 
+    max-width: 350px; 
+    padding: 5px;
 }
 
 .portfolioItemImage img {
-    max-width: 100%;
+    /* max-width: 100%; */
     min-width: 140px;
     margin: 10px auto;
     height: auto;
     object-fit: contain;
+
+    border-radius: 10px;
 }
 
 .portfolioItemLinks {
-    grid-column: span 2;
 
     font-size: 1.75rem;
     margin: 0px 10px;

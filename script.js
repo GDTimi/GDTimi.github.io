@@ -21,15 +21,14 @@ fetch("data.json").then(function (response) {
         //Add the project title
         output += `<div class="portfolioItemTitle"><h3>${project.name}</h3></div>`;
 
-        //Add the project description
-        output += `<div class="portfolioItemDescription">${project.description}</div>`;
-
-        //Add the project image
-        output += `
-        <div class="portfolioItemImage">
-            <img src="${project.imageMain}" onerror="javascript:this.src='images/portfolioImageNotAvailable.png'" alt="Main portfolio project image for ${project.name}" />
-        </div>
-        `;
+        //Add the project description start
+        output += `<div class="portfolioItemDescription">`;
+        
+        //Add the floated image
+        output += `<img class="portfolioItemImage" src="${project.imageMain}" onerror="javascript:this.src='images/portfolioImageNotAvailable.png'" alt="Main portfolio project image for ${project.name}" />`;
+        
+        //Add the project description end
+        output += `${project.description}</div>`;
 
         //Add the project links section start
         output += `

@@ -34,12 +34,12 @@ fetch("data.json").then(function (response) {
         //Add the project links section start
         output += `
         <div class="portfolioItemLinks">
-            <div>Project links:</div>
+            <div><h4>Project links:</h4></div>
             <div class="portfolioItemLinksContainer">
             `;
 
         //Parse and add the projects link data
-        
+
 
         //Add the project links section finish
         output += `

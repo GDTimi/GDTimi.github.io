@@ -260,6 +260,25 @@ section p {
 
 }
 
+.modalOpen {
+    color: var(--navItem-colour);
+    background-color: var(--navBar-bg-colour);
+    margin: auto;
+    font-size: 1.75rem;
+    text-align: center;
+    padding: 5px;
+    border-radius: 7px;
+
+
+
+    transition: all 0.15s;
+    transform: scale(1);
+}
+
+.modalOpen:hover {
+    color:var(--navItem-colour-highlighted);
+}
+
 #modalWrapper {
     display: grid;
     align-items: stretch;

@@ -248,6 +248,18 @@ section p {
     gap: 30px;
 }
 
+.portfolioItemContainer a {
+
+   transition: all 0.1s;
+    transform: scale(1);    
+     
+}
+
+.portfolioItemContainer a:hover {
+    transform: scale(1.05);   
+
+}
+
 #modalWrapper {
     display: grid;
     align-items: stretch;

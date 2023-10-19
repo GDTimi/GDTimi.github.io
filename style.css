@@ -27,6 +27,8 @@ body {
 
     background-color: var(--navBar-bg-colour);
     box-shadow: -15px 2px 8px dimgrey, 15px 2px 8px dimgrey;
+
+    z-index: 1;
 }
 
 .navItem {
@@ -43,7 +45,7 @@ body {
     
     border-radius: 0px;
 
-    transition: all 0.25s;
+    transition: all 0.15s;
     transform: scale(1);
 }
 
@@ -150,15 +152,15 @@ section p {
 
     box-shadow: -0 6px 8px lightblue;
 
-    /* transition: all 0.25s;
-    transform: scale(1);     */
+    transition: all 0.25s;
+    transform: scale(1);    
      
 }
 
-/* .portfolioItemContainer:hover {
-    transform: scale(1.05);   
+.portfolioItemContainer:hover {
+    transform: scale(1.025);   
 
-} */
+}
 
 .portfolioItemTitle {
 
@@ -263,6 +265,8 @@ section p {
 
     background-color: var(--navFooter-bg-colour);
     box-shadow: -15px -2px 8px lightsteelblue, 15px -2px 8px lightsteelblue;
+
+    z-index: 1;
 }
 
 #navFooter {

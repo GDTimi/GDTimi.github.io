@@ -270,9 +270,9 @@ section p {
     display: inline-block;
     position: fixed;
     /* margin: 15% 10%; */
-    margin: 10% 10%;
+    margin: 10% 7.5%;
     z-index: 1; /* Sit on top */
-    width: 80%;
+    width: 85%;
     height: 70%;
 
     
@@ -339,7 +339,7 @@ section p {
 .modalScreenshot {
     /* height: 50%; */
     min-height: 350px;
-    max-height: 450px;
+    max-height: 380px;
     object-fit: contain;
 
     border: 3px solid var(--navBar-bg-colour);   

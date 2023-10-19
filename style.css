@@ -276,9 +276,6 @@ section p {
 #navFooter:hover {
     color:var(--navItem-colour-highlighted);
     transform: scale(1.08);   
-    
-    border-bottom: 8px solid lightgoldenrodyellow;
-    border-radius: 7px;
 }
 
 #navCopyrightInfo {

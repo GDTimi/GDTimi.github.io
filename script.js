@@ -13,7 +13,8 @@ fetch("data.json").then(function (response) {
     let output = '';
      
     //Loop through the portfolio items
-    data.projects.forEach(function (project){
+    data.projects.forEach(function (project, i){
+        console.log(`Parsing portfolio item ${i}`)
 
         //Create the project item class div
         output += '<div class="portfolioItemContainer">';
@@ -27,8 +28,19 @@ fetch("data.json").then(function (response) {
         //Add the floated image
         output += `<img class="portfolioItemImage" src="${project.imageMain}" onerror="javascript:this.src='images/portfolioImageNotAvailable.png'" alt="Main portfolio project image for ${project.name}" />`;
         
+        //Add the project description
+        output += `${project.description}`;
+        
+        //Add the more images link, if the project images property is there
+        let projectImages = project.projectImages;
+        if (projectImages != undefined) {
+        output += `
+        <br><br><button id="${i}" class="modalOpen">See more images</button>
+        `;    
+        }
+
         //Add the project description end
-        output += `${project.description}</div>`;
+        output += `</div>`;
 
         //Add the project links section start
         output += `
@@ -105,4 +117,33 @@ fetch("data.json").then(function (response) {
     //Update the display target
     displayTarget.innerHTML += output;
 
+
+    // Add the modal open listeners where required
+    document.querySelectorAll('.modalOpen').forEach(button =>
+        {
+            button.addEventListener('click', popupOpen);
+        }
+    )
+
 })
+
+//Setup the modal box functions and handling
+var modal = document.querySelector("#modalBox");
+console.log(modal);
+
+//Modal opener
+function popupOpen(){
+    modal.style.display = "block";
+}
+
+//Modal close
+function popupClose(){
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  } 

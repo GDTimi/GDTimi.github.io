@@ -17,6 +17,12 @@
           {"linkURL": "https://store.steampowered.com/app/2513180/Fruitalistic/", "linkType": "Steam"},
           {"linkURL": "https://play.google.com/store/apps/details?id=uk.co.AToPlay.Fruitalistic", "linkType": "PlayStore"},
           {"linkURL": "https://apps.apple.com/us/app/fruitalistic/id6450742294?ls=1", "linkType": "AppStore"}
+        ],
+        "projectImages": [
+          {"imageURL": "images/gameFruitalistic/Presskit_Fruitalistic_Screenshot_1(Tablet).png", "imageDescription": "Description 1"},
+          {"imageURL": "images/gameFruitalistic/Presskit_Fruitalistic_Screenshot_2(Tablet).png", "imageDescription": "Description 2"},
+          {"imageURL": "images/gameFruitalistic/Presskit_Fruitalistic_Screenshot_3(Tablet).png", "imageDescription": "Description 3"},
+          {"imageURL": "images/gameFruitalistic/Presskit_Fruitalistic_Screenshot_4(Tablet).png", "imageDescription": "Description 4"}
         ]
       },
       

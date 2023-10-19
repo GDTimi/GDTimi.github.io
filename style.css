@@ -246,6 +246,26 @@ section p {
     gap: 30px;
 }
 
+#modalBox {
+    display: block;
+    position: fixed;
+    margin: 15% 10%;
+    z-index: 1; /* Sit on top */
+    width: 80%;
+    height: 60%; 
+    background-color: blue;
+    
+  }
+
+#modalContents {
+    display: grid;
+    grid-template-columns: 1;
+    background-color: #fefefe;
+    margin: 10px auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+  }
+
 /* Contact section setup */
 #sectionContact {
     margin-bottom: 20px;

@@ -11,6 +11,8 @@
     --section-bg-colour-two: #9dd0e3;
 
     --navFooter-bg-colour:#3d3d3d ;
+
+    --box-shadow-default-colour:#1b1b1b;
 }
 
 body {
@@ -150,7 +152,7 @@ section p {
     background-color: var(--portfolio-item-container-bg-colour); 
     border-radius: 10px;
 
-    box-shadow: -0 6px 8px lightblue;
+    box-shadow: -0 10px 8px var(--box-shadow-default-colour);
 
     transition: all 0.25s;
     transform: scale(1);    
@@ -199,7 +201,7 @@ section p {
 
     float:right;
     width:40%; 
-    background:darkslategray; 
+    background:var(--portfolio-item-container-bg-colour); 
     max-width: 350px; 
     padding: 5px;
 }

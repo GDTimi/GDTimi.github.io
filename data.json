@@ -32,6 +32,14 @@
         "imageMain": "images/gameFlightOfTheAthena/PressKit_Flight_of_the_Athena_Screenshot_1.jpg",
         "projectLinks": [
           {"linkURL": "https://store.steampowered.com/app/751940/Flight_of_the_Athena/", "linkType": "Steam"}
+        ],
+        "projectImages": [
+          {"imageURL": "images/gameFlightOfTheAthena/PressKit_Flight_of_the_Athena_Screenshot_1.jpg", "imageDescription": "Description 1"},
+          {"imageURL": "images/gameFlightOfTheAthena/PressKit_Flight_of_the_Athena_Screenshot_2.jpg", "imageDescription": "Description 2"},
+          {"imageURL": "images/gameFlightOfTheAthena/PressKit_Flight_of_the_Athena_Screenshot_3.jpg", "imageDescription": "Description 3"},
+          {"imageURL": "images/gameFlightOfTheAthena/PressKit_Flight_of_the_Athena_Screenshot_4.jpg", "imageDescription": "Description 4"},
+          {"imageURL": "images/gameFlightOfTheAthena/PressKit_Flight_of_the_Athena_Screenshot_5.jpg", "imageDescription": "Description 5"},
+          {"imageURL": "images/gameFlightOfTheAthena/PressKit_Flight_of_the_Athena_Screenshot_6.jpg", "imageDescription": "Description 6"}
         ]
       },
       

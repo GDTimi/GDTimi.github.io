@@ -266,6 +266,11 @@ section p {
     border: 1px solid #888;
   }
 
+#modalScreenshotContainer {
+    display: flex;
+    flex-wrap: wrap;
+}  
+
 /* Contact section setup */
 #sectionContact {
     margin-bottom: 20px;

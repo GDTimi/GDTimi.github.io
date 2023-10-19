@@ -1,4 +1,4 @@
-// Populate the portfolio projects data
+// Run on load - populate the portfolio projects data
 fetch("data.json").then(function (response) {
     return response.json();
 }). then(function(data) {
@@ -61,7 +61,7 @@ fetch("data.json").then(function (response) {
         else{
             //Iterate through the links array, creating appropriate links based on the linkType property
             projectLinksArray.forEach(function (linkItem){
-                console.log(linkItem)
+                // console.log(linkItem)
                 
                 let linkURL = linkItem.linkURL;
                 let linkImage = undefined;
@@ -134,6 +134,9 @@ console.log(modal);
 //Modal opener
 function popupOpen(){
     modal.style.display = "block";
+
+    console.log(this.id);
+    popupScreenshotFetcher(this.id);
 }
 
 //Modal close
@@ -147,3 +150,8 @@ window.onclick = function(event) {
       modal.style.display = "none";
     }
   } 
+
+
+function popupScreenshotFetcher(arrayID) {
+
+}

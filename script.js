@@ -151,7 +151,44 @@ window.onclick = function(event) {
     }
   } 
 
-
+//This function will take the given array id, fetch the relevant screenshots and then update the HTML as required
 function popupScreenshotFetcher(arrayID) {
 
+    //Run the fetcher
+    fetch("data.json").then(function (response) {
+        return response.json();
+    }). then(function(data) {
+
+    //Select where to display the data    
+    let displayTarget = document.querySelector("#modalScreenshotContainer");
+
+    //Empty string to build up with HTML + project data
+    let output = '';
+    
+    //Debug check the array data is the correct target and assign
+    let project = data.projects[arrayID]
+    //console.log(targetProject);
+    let projectImageArray = project.projectImages;
+    //console.log(projectImageArray);
+
+    //Iterate through the image array, adding the image data to the output string
+    projectImageArray.forEach(function (imageItem){
+        
+        //Debug check the image item
+        console.log(imageItem);
+        var itemImage = imageItem.imageURL;
+        var itemDescription = imageItem.imageDescription;
+        
+        //Add the image data
+        output +=`
+        <img class="modalScreenshot" src="${itemImage}" onerror="javascript:this.src='images/portfolioImageNotAvailable.png'" alt="${itemDescription}" />
+        `;
+
+    })
+
+    //Update the display target
+    displayTarget.innerHTML = output;
+
+
+    })
 }

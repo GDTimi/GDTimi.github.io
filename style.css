@@ -247,14 +247,17 @@ section p {
 }
 
 #modalBox {
-    display: block;
+    display: inline-block;
     position: fixed;
-    margin: 15% 10%;
+    /* margin: 15% 10%; */
+    margin: 10% 10%;
     z-index: 1; /* Sit on top */
     width: 80%;
     height: 60%; 
     background-color: blue;
     
+    vertical-align: middle;
+    max-height: 80%;
   }
 
 #modalContents {
@@ -269,7 +272,18 @@ section p {
 #modalScreenshotContainer {
     display: flex;
     flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+
+    height: 90%;
+    overflow: auto;
+    max-height: inherit;
 }  
+
+.modalScreenshot {
+    height: 300px;
+    max-height: 400;
+}
 
 /* Contact section setup */
 #sectionContact {

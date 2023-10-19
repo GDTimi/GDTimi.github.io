@@ -1,9 +1,16 @@
 /* All content setup */
 :root {
+    --navBar-bg-colour:#272727;
     --navItem-colour: #ffffff; 
-    --navItem-colour-highlighted: #f9e6cf; 
+    --navItem-colour-highlighted: #fef3c0 ; 
 
     --portfolio-item-bg-colour: lightcyan;
+    --portfolio-item-container-bg-colour:#223549;
+
+    --section-bg-colour-one: #c6dde7;
+    --section-bg-colour-two: #9dd0e3;
+
+    --navFooter-bg-colour:#3d3d3d ;
 }
 
 body {
@@ -18,7 +25,7 @@ body {
     top: 0px;
     height: 55px;
 
-    background-color:#272727 ;
+    background-color: var(--navBar-bg-colour);
     box-shadow: -15px 2px 8px dimgrey, 15px 2px 8px dimgrey;
 }
 
@@ -79,6 +86,8 @@ section p {
 /* About Section setup */
 #sectionAbout {
     display: grid;
+
+    background-color: var(--section-bg-colour-one);
 }
 
 #aboutGrid {
@@ -109,6 +118,10 @@ section p {
 }
 
 /* Portfolio section setup */
+#sectionPortfolio {
+    background-color: var(--section-bg-colour-two);
+}
+
 #portfolioDisplay {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -132,7 +145,7 @@ section p {
     margin: 0 auto; 
     padding: 0px 10px;
     
-    background-color: darkslategray; 
+    background-color: var(--portfolio-item-container-bg-colour); 
     border-radius: 10px;
 
     box-shadow: -0 6px 8px lightblue;
@@ -232,6 +245,8 @@ section p {
 /* Contact section setup */
 #sectionContact {
     margin-bottom: 20px;
+
+    background-color: var(--section-bg-colour-one);
 }
 
 /* Footer navReturn setup */
@@ -240,17 +255,35 @@ section p {
     grid-template-columns: 1fr 1fr;
     gap: 80px;
     font-size: 1.25rem;
-    padding: 5px 0px; 
+    padding: 10px 0px; 
 
     position: fixed;
     width: 100%;
     bottom: 0px;
 
+    background-color: var(--navFooter-bg-colour);
     box-shadow: -15px -2px 8px lightsteelblue, 15px -2px 8px lightsteelblue;
 }
 
 #navFooter {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     transition: all 0.25s;
     transform: scale(1);
+
+    color: var(--navItem-colour);
+}
+
+#navFooter:hover {
+    color:var(--navItem-colour-highlighted);
+    transform: scale(1.08);   
+    
+    border-bottom: 8px solid lightgoldenrodyellow;
+    border-radius: 7px;
+}
+
+#navCopyrightInfo {
+    text-align: right;
+    margin: 0px 15px;
+
+    color: var(--navItem-colour);
 }

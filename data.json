@@ -3,7 +3,7 @@
       {
         "name": "Portfolio website project",
         "description": "Project description goes here. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam soluta obcaecati aut ipsa temporibus? Autem, veniam temporibus architecto voluptates dolores rerum earum explicabo similique dolorem dicta eum minus ratione. At.",
-        "imageMain": "NoImage",
+        "imageMain": "images/projectPortfolioWebsite/portfolioProjectMain.png",
         "projectLinks": [
           {"linkURL": "https://github.com/GDTimi/portfolio", "linkType": "GitHub"}
         ]

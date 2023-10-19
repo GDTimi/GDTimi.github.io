@@ -329,6 +329,9 @@ section p {
     min-height: 350px;
     max-height: 450px;
     object-fit: contain;
+
+    border: 3px solid var(--navBar-bg-colour);   
+    border-radius: 5px; 
 }
 
 /* Contact section setup */

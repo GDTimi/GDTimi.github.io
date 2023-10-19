@@ -246,6 +246,12 @@ section p {
     gap: 30px;
 }
 
+#modalWrapper {
+    display: grid;
+    align-items: stretch;
+
+}
+
 #modalBox {
     display: inline-block;
     position: fixed;
@@ -253,21 +259,35 @@ section p {
     margin: 10% 10%;
     z-index: 1; /* Sit on top */
     width: 80%;
-    height: 60%; 
-    background-color: blue;
+    height: 70%;
+
     
     vertical-align: middle;
     max-height: 80%;
+
+    border: 3px solid var(--navBar-bg-colour);
+    background-color: var(--navFooter-bg-colour); 
+    border-radius: 10px;
+    box-shadow: -0 10px 8px var(--box-shadow-default-colour);
+    overflow: hidden;
   }
 
 #modalContents {
     display: grid;
     grid-template-columns: 1;
     background-color: #fefefe;
-    margin: 10px auto; /* 15% from the top and centered */
+    margin: 10px auto; 
     padding: 20px;
+    gap: 20px;
     border: 1px solid #888;
+
+    overflow: hidden;
   }
+
+#modalClose {
+    background-color: var(--section-bg-colour-one);
+    
+}
 
 #modalScreenshotContainer {
     display: flex;
@@ -281,8 +301,8 @@ section p {
 }  
 
 .modalScreenshot {
-    height: 300px;
-    max-height: 400;
+    height: 50%;
+    max-height: 400px;
 }
 
 /* Contact section setup */

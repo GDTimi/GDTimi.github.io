@@ -277,6 +277,8 @@ section p {
 #modalContents {
     display: grid;
     grid-template-columns: 1;
+    height: 100%;
+    align-content: start;
 
     background-color:var(--modal-contents-bg-colour);
     border-radius: 10px;
@@ -325,7 +327,7 @@ section p {
 .modalScreenshot {
     /* height: 50%; */
     min-height: 350px;
-    max-height: 350px;
+    max-height: 450px;
     object-fit: contain;
 }
 

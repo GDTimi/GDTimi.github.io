@@ -162,6 +162,8 @@ section p {
 
     transition: all 0.25s;
     transform: scale(1);    
+
+    /* align-content: space-between; */
      
 }
 

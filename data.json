@@ -50,6 +50,12 @@
         "projectLinks": [
           {"linkURL": "https://play.google.com/store/apps/details?id=uk.co.AToPlay.Pachoink", "linkType": "PlayStore"},
           {"linkURL": "https://apps.apple.com/us/app/pachoink/id1488272669?ls=1", "linkType": "AppStore"}
+        ],
+        "projectImages": [
+          {"imageURL": "images/gamePachoink/PressKit_Screenshot_1(iPad_Pro_3rd_Gen).png", "imageDescription": "Description 1"},
+          {"imageURL": "images/gamePachoink/PressKit_Screenshot_2(iPad_Pro_3rd_Gen).png", "imageDescription": "Description 2"},
+          {"imageURL": "images/gamePachoink/PressKit_Screenshot_3(iPad_Pro_3rd_Gen).png", "imageDescription": "Description 3"},
+          {"imageURL": "images/gamePachoink/PressKit_Screenshot_4(iPad_Pro_3rd_Gen).png", "imageDescription": "Description 4"}
         ]
       }
     ]

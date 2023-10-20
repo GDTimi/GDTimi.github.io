@@ -11,7 +11,7 @@
 
       {
         "name": "Fruitalistic!",
-        "description": "Project description goes here. Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro debitis maiores amet suscipit delectus ab, harum, asperiores nostrum labore facilis recusandae quo veniam id placeat laborum at, blanditiis commodi iure!",
+        "description": "This project was interesting, as I wanted to target mobile (portrait) and PC (landscape). This gave an additional challenge with general interface and UI positioning, but I think the final outcome balanced it pretty well.",
         "imageMain": "images/gameFruitalistic/Presskit_Fruitalistic_Screenshot_1(Tablet).png",
         "projectLinks": [
           {"linkURL": "https://store.steampowered.com/app/2513180/Fruitalistic/", "linkType": "Steam"},

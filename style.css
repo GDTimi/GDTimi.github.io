@@ -372,6 +372,20 @@ section p {
     background-color: var(--section-bg-colour-one);
 }
 
+.contactLinks {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+
+}
+
+.contactLinks a {
+    font-size: 7rem;
+    text-decoration: none;
+    color: var(--portfolio-item-container-bg-colour);
+}
+
 /* Footer navReturn setup */
 #navigationFooter {
     display: grid;

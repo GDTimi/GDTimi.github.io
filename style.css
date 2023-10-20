@@ -208,10 +208,20 @@ section p {
     box-shadow: 0px 0px 20px lightsteelblue;
 
     float:right;
-    width:40%; 
+    /* width:40%;  */
     background:var(--portfolio-item-container-bg-colour); 
-    max-width: 350px; 
+    /* max-width: 350px;  */
     padding: 5px;
+}
+
+.portfolioItemImage.orientationLandscape {
+    min-width: 180px;
+    max-width: 40%;
+}
+
+.portfolioItemImage.orientationPortrait {
+    max-height: 300px;
+    max-width: 40%;
 }
 
 .portfolioItemImage img {

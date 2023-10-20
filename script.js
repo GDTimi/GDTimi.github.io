@@ -26,7 +26,7 @@ fetch("data.json").then(function (response) {
         output += `<div class="portfolioItemDescription">`;
         
         //Add the floated image
-        output += `<img class="portfolioItemImage" src="${project.imageMain}" onerror="javascript:this.src='images/portfolioImageNotAvailable.png'" alt="Main portfolio project image for ${project.name}" />`;
+        output += `<img class="portfolioItemImage" src="${project.imageMain}" onload="imageOrientationSetter(this)" onerror="javascript:this.src='images/portfolioImageNotAvailable.png'" alt="Main portfolio project image for ${project.name}" />`;
         
         //Add the project description
         output += `${project.description}`;
@@ -200,4 +200,19 @@ function popupScreenshotFetcher(arrayID) {
 
 
     })
+}
+
+function imageOrientationSetter(image) {
+    //Fetch the image dimensions
+    let imageWidth = image.width;
+    let imageHeight = image.height;
+    //console.log(`This image is ${imageWidth} x ${imageHeight}`);
+
+    //Set the appropriate class depending on the dimension
+    if(imageWidth > imageHeight) {
+    image.classList.add("orientationLandscape");
+    } else {
+    image.classList.add("orientationPortrait");
+    }
+    
 }

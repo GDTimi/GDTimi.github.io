@@ -11,7 +11,7 @@
 
       {
         "name": "Fruitalistic!",
-        "description": "Project description goes here. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam soluta obcaecati aut ipsa temporibus? Autem, veniam temporibus architecto voluptates dolores rerum earum explicabo similique dolorem dicta eum minus ratione. At.",
+        "description": "Project description goes here. Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro debitis maiores amet suscipit delectus ab, harum, asperiores nostrum labore facilis recusandae quo veniam id placeat laborum at, blanditiis commodi iure!",
         "imageMain": "images/gameFruitalistic/Presskit_Fruitalistic_Screenshot_1(Tablet).png",
         "projectLinks": [
           {"linkURL": "https://store.steampowered.com/app/2513180/Fruitalistic/", "linkType": "Steam"},
@@ -28,7 +28,7 @@
       
       {
         "name": "Flight of the Athena",
-        "description": "Project description goes here. And so forth and so forth",
+        "description": "Project description goes here. And so forth and so forth, useful layout test for a short description.",
         "imageMain": "images/gameFlightOfTheAthena/PressKit_Flight_of_the_Athena_Screenshot_1.jpg",
         "projectLinks": [
           {"linkURL": "https://store.steampowered.com/app/751940/Flight_of_the_Athena/", "linkType": "Steam"}

@@ -104,6 +104,10 @@ section p {
     padding: 0px;
 }
 
+#aboutGrid p {
+    font-size: 2rem;
+}
+
 @media screen and (max-width: 850px){ 
     #aboutGrid { 
     grid-template-columns: 1fr;

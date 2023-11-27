@@ -1,8 +1,17 @@
 {
     "projects": [
       {
-        "name": "Portfolio website project",
-        "description": "Project description goes here. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam soluta obcaecati aut ipsa temporibus? Autem, veniam temporibus architecto voluptates dolores rerum earum explicabo similique dolorem dicta eum minus ratione. At.",
+        "name": "Book Swap Website",
+        "description": "Book Swap was an iO Academy team project, to create a website that manages a communal bookshelf. We built the frontend with React and JavaScript to interface with the provided backend API, and gained experience as a team taking on stories, doing the work pair programming, and using Git + GitHub.",
+        "imageMain": "images/bookSwapWebsite/Book_Swap_Screenshot_1.png",
+        "projectLinks": [
+          {"linkURL": "https://github.com/iO-Academy/23-sept-catmode-bookswap-fe", "linkType": "GitHub"}
+        ]
+      },
+
+      {
+        "name": "Portfolio Website",
+        "description": "This portfolio website has been a project in itself, developed during my time on the iO Academy Software Developer Essentials coding bootcamp. I utilised the HTML5 and CSS skils I learned to build the base, as well as JavaScript and JSON to handle the portfolio and data.",
         "imageMain": "images/projectPortfolioWebsite/portfolioProjectMain.png",
         "projectLinks": [
           {"linkURL": "https://github.com/GDTimi/portfolio", "linkType": "GitHub"}
@@ -11,7 +20,7 @@
 
       {
         "name": "Fruitalistic!",
-        "description": "This project was interesting, as I wanted to target mobile (portrait) and PC (landscape). This gave an additional challenge with general interface and UI positioning, but I think the final outcome balanced it pretty well.",
+        "description": "This game was a challenge as I wanted to target mobile (portrait) and PC (landscape) orientations and screen ratios. This gave an additional challenge with general interface and UI positioning, but I think the final outcome balanced it pretty well.",
         "imageMain": "images/gameFruitalistic/Presskit_Fruitalistic_Screenshot_1(Tablet).png",
         "projectLinks": [
           {"linkURL": "https://store.steampowered.com/app/2513180/Fruitalistic/", "linkType": "Steam"},
@@ -19,43 +28,43 @@
           {"linkURL": "https://apps.apple.com/us/app/fruitalistic/id6450742294?ls=1", "linkType": "AppStore"}
         ],
         "projectImages": [
-          {"imageURL": "images/gameFruitalistic/Presskit_Fruitalistic_Screenshot_1(Tablet).png", "imageDescription": "Description 1"},
-          {"imageURL": "images/gameFruitalistic/Presskit_Fruitalistic_Screenshot_2(Tablet).png", "imageDescription": "Description 2"},
-          {"imageURL": "images/gameFruitalistic/Presskit_Fruitalistic_Screenshot_3(Tablet).png", "imageDescription": "Description 3"},
-          {"imageURL": "images/gameFruitalistic/Presskit_Fruitalistic_Screenshot_4(Tablet).png", "imageDescription": "Description 4"}
+          {"imageURL": "images/gameFruitalistic/Presskit_Fruitalistic_Screenshot_1(Tablet).png", "imageDescription": "Fruitalistic!, Screenshot 1"},
+          {"imageURL": "images/gameFruitalistic/Presskit_Fruitalistic_Screenshot_2(Tablet).png", "imageDescription": "Fruitalistic!, Screenshot 2"},
+          {"imageURL": "images/gameFruitalistic/Presskit_Fruitalistic_Screenshot_3(Tablet).png", "imageDescription": "Fruitalistic!, Screenshot 3"},
+          {"imageURL": "images/gameFruitalistic/Presskit_Fruitalistic_Screenshot_4(Tablet).png", "imageDescription": "Fruitalistic!, Screenshot 4"}
         ]
       },
       
       {
         "name": "Flight of the Athena",
-        "description": "Project description goes here. And so forth and so forth, useful layout test for a short description.",
+        "description": "This game was my first full PC game, released on Steam. It incorporated plenty of procedural generation, for the node based campaign maps, map events, and even the shoot 'em up levels themselves, making each run different every time.",
         "imageMain": "images/gameFlightOfTheAthena/PressKit_Flight_of_the_Athena_Screenshot_1.jpg",
         "projectLinks": [
           {"linkURL": "https://store.steampowered.com/app/751940/Flight_of_the_Athena/", "linkType": "Steam"}
         ],
         "projectImages": [
-          {"imageURL": "images/gameFlightOfTheAthena/PressKit_Flight_of_the_Athena_Screenshot_1.jpg", "imageDescription": "Description 1"},
-          {"imageURL": "images/gameFlightOfTheAthena/PressKit_Flight_of_the_Athena_Screenshot_2.jpg", "imageDescription": "Description 2"},
-          {"imageURL": "images/gameFlightOfTheAthena/PressKit_Flight_of_the_Athena_Screenshot_3.jpg", "imageDescription": "Description 3"},
-          {"imageURL": "images/gameFlightOfTheAthena/PressKit_Flight_of_the_Athena_Screenshot_4.jpg", "imageDescription": "Description 4"},
-          {"imageURL": "images/gameFlightOfTheAthena/PressKit_Flight_of_the_Athena_Screenshot_5.jpg", "imageDescription": "Description 5"},
-          {"imageURL": "images/gameFlightOfTheAthena/PressKit_Flight_of_the_Athena_Screenshot_6.jpg", "imageDescription": "Description 6"}
+          {"imageURL": "images/gameFlightOfTheAthena/PressKit_Flight_of_the_Athena_Screenshot_1.jpg", "imageDescription": "Flight of the Athena, Screenshot 1"},
+          {"imageURL": "images/gameFlightOfTheAthena/PressKit_Flight_of_the_Athena_Screenshot_2.jpg", "imageDescription": "Flight of the Athena, Screenshot 2"},
+          {"imageURL": "images/gameFlightOfTheAthena/PressKit_Flight_of_the_Athena_Screenshot_3.jpg", "imageDescription": "Flight of the Athena, Screenshot 3"},
+          {"imageURL": "images/gameFlightOfTheAthena/PressKit_Flight_of_the_Athena_Screenshot_4.jpg", "imageDescription": "Flight of the Athena, Screenshot 4"},
+          {"imageURL": "images/gameFlightOfTheAthena/PressKit_Flight_of_the_Athena_Screenshot_5.jpg", "imageDescription": "Flight of the Athena, Screenshot 5"},
+          {"imageURL": "images/gameFlightOfTheAthena/PressKit_Flight_of_the_Athena_Screenshot_6.jpg", "imageDescription": "Flight of the Athena, Screenshot 6"}
         ]
       },
       
       {
         "name": "Pachoink!",
-        "description": "Project description goes here. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam soluta obcaecati aut ipsa temporibus? Autem, veniam temporibus architecto voluptates dolores rerum earum explicabo similique dolorem dicta eum minus ratione. At.",
+        "description": "Pachoink! is an interesting mobile game I've developed, blending Pachinko with brickbreaker style mechanics and pinball elements. It was quite a challenge as my first physics based game, as well as balancing the gameplay elements, but has ended up being my most popular and successful game (so far!).",
         "imageMain": "images/gamePachoink/PressKit_Screenshot_1(iPad_Pro_3rd_Gen).png",
         "projectLinks": [
           {"linkURL": "https://play.google.com/store/apps/details?id=uk.co.AToPlay.Pachoink", "linkType": "PlayStore"},
           {"linkURL": "https://apps.apple.com/us/app/pachoink/id1488272669?ls=1", "linkType": "AppStore"}
         ],
         "projectImages": [
-          {"imageURL": "images/gamePachoink/PressKit_Screenshot_1(iPad_Pro_3rd_Gen).png", "imageDescription": "Description 1"},
-          {"imageURL": "images/gamePachoink/PressKit_Screenshot_2(iPad_Pro_3rd_Gen).png", "imageDescription": "Description 2"},
-          {"imageURL": "images/gamePachoink/PressKit_Screenshot_3(iPad_Pro_3rd_Gen).png", "imageDescription": "Description 3"},
-          {"imageURL": "images/gamePachoink/PressKit_Screenshot_4(iPad_Pro_3rd_Gen).png", "imageDescription": "Description 4"}
+          {"imageURL": "images/gamePachoink/PressKit_Screenshot_1(iPad_Pro_3rd_Gen).png", "imageDescription": "Pachoink!, Screenshot 1"},
+          {"imageURL": "images/gamePachoink/PressKit_Screenshot_2(iPad_Pro_3rd_Gen).png", "imageDescription": "Pachoink!, Screenshot 2"},
+          {"imageURL": "images/gamePachoink/PressKit_Screenshot_3(iPad_Pro_3rd_Gen).png", "imageDescription": "Pachoink!, Screenshot 3"},
+          {"imageURL": "images/gamePachoink/PressKit_Screenshot_4(iPad_Pro_3rd_Gen).png", "imageDescription": "Pachoink!, Screenshot 4"}
         ]
       }
     ]

@@ -2,7 +2,7 @@
     "projects": [
       {
         "name": "snippetBank()",
-        "description": "snippetBank() is a solo project I created during the iO Academy Software Developer Essentials coding bootcamp. The brief was to create a collection app, with the information being stored in a SQL database. I opted to create a code snippet bank, where the user could save useful code snippets, which could then be sorted and searched for when required. The core site was built using OOP for Models, Entities and View Helpers, I implemented unit tests for the functionality that went in, and used JavaScript to handle some data passing and the dynamic form for saving snippets.",
+        "description": "snippetBank() is a solo project I created during the iO Academy Software Developer Essentials coding bootcamp I attended late 2023. The brief was to create a collection app, with the information being stored in a SQL database. I opted to create a code snippet bank, where the user could save useful code snippets, which could then be sorted and searched for when required. The core site was built using OOP for Models, Entities and View Helpers, I implemented unit tests for the functionality that went in, and used JavaScript to handle some data passing and the dynamic form for saving snippets.",
         "imageMain": "images/snippetBank/snippetBank_Screenshot_1.png",
         "projectLinks": [
           {"linkURL": "https://github.com/GDTimi/snippetBank", "linkType": "GitHub"}

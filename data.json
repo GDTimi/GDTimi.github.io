@@ -25,7 +25,7 @@
 
       {
         "name": "Portfolio Website",
-        "description": "This portfolio website has been a project in itself, developed during my time on the iO Academy course. I utilised HTML5 and CSS to build the base, and JavaScript and JSON to handle the portfolio and data.",
+        "description": "This portfolio website has been a project in itself, developed during my time on the iO Academy course. I utilised HTML5 and CSS to build the base, and JavaScript and JSON to handle the portfolio and data. The site was built with responsiveness in mind, as well as giving attention to web accessibility.",
         "imageMain": "images/projectPortfolioWebsite/portfolioProjectMain.png",
         "projectLinks": [
           {"linkURL": "https://github.com/GDTimi/portfolio", "linkType": "GitHub"}

@@ -65,6 +65,23 @@ body {
     border-radius: 7px;
 }
 
+@media screen and (max-width: 1000px){ 
+    .navItem {
+        margin: 10px 7.5px;
+
+        font-size: 1.75rem;
+        padding: 0px 3px 16px 3px;
+    }
+
+    .navItem:hover {
+        color:var(--navItem-colour-highlighted);
+        transform: scale(1.04);   
+        
+        border-bottom: 4px solid lightgoldenrodyellow;
+        border-radius: 3.5px;
+    }
+} 
+
 /* Main content setup */
 main {
     margin-top: 0px;
@@ -89,6 +106,12 @@ section p {
     font-size: 1.5rem;
 }
 
+@media screen and (max-width: 1000px){ 
+    section p {
+        font-size: 1.25rem;
+    }
+} 
+
 .alignedNodeCentre {
     margin: 0 auto;
 }
@@ -112,10 +135,14 @@ section p {
     font-size: 2rem;
 }
 
-@media screen and (max-width: 850px){ 
+@media screen and (max-width: 1000px){ 
     #aboutGrid { 
     grid-template-columns: 1fr;
     } 
+
+    #aboutGrid p {
+        font-size: 1.5rem;
+    }
 
     #aboutImage {
         order: -1;
@@ -144,7 +171,7 @@ section p {
 
 }
 
-@media screen and (max-width: 850px){ 
+@media screen and (max-width: 1000px){ 
     #portfolioDisplay { 
     grid-template-columns: 1fr;
     } 
@@ -167,6 +194,12 @@ section p {
     transition: all 0.25s;
     transform: scale(1);    
 }
+
+@media screen and (max-width: 1000px){ 
+    .portfolioItemContainer { 
+    min-width: 180px;
+    } 
+} 
 
 .portfolioItemContainer:hover {
     transform: scale(1.025);   
@@ -195,6 +228,16 @@ section p {
 
     float:none; 
 }
+
+@media screen and (max-width: 1000px){ 
+    .portfolioItemTitle h3 {
+        font-size: 1.75rem;
+    }
+
+    .portfolioItemDescription{
+        font-size: 1.25rem;
+    }
+} 
 
 .portfolioItemImage{
     margin: 10px auto;

@@ -462,7 +462,10 @@ section p {
 
 @media screen and (max-width: 1000px){ 
     #navFooter {
+        text-wrap: nowrap;
         font-size: 1.25rem;
+
+        border-bottom: none;
     }
 } 
 

@@ -10,7 +10,6 @@ fetch("data.json").then(function (response) {
      
     //Loop through the portfolio items
     data.projects.forEach(function (project, i){
-        console.log(`Parsing portfolio item ${i}`)
 
         //Create the project item class div
         output += '<div class="portfolioItemContainer">';
@@ -99,19 +98,16 @@ fetch("data.json").then(function (response) {
     //Update the display target
     displayTarget.innerHTML += output;
 
-
     // Add the modal open listeners where required
     document.querySelectorAll('.modalOpen').forEach(button =>
         {
             button.addEventListener('click', popupOpen);
         }
     )
-
 })
 
 //Setup the modal box functions and handling
 var modal = document.querySelector("#modalBox");
-console.log(modal);
 
 //Modal opener
 function popupOpen(){

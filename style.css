@@ -438,9 +438,8 @@ section p {
 #navigationFooter {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 80px;
     font-size: 1.25rem;
-    padding: 5px 0px; 
+    padding: 10px 0px; 
 
     position: fixed;
     width: 100%;
@@ -477,7 +476,7 @@ section p {
 #navCopyrightInfo {
     text-wrap: nowrap;
     text-align: right;
-    margin: auto 20px;
+    margin: auto 15px;
 
     color: var(--navItem-colour);
 }

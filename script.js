@@ -2,10 +2,6 @@
 fetch("data.json").then(function (response) {
     return response.json();
 }). then(function(data) {
-
-    //Debug check the data
-    //console.log(data);
-
     //Select where to display the data    
     const displayTarget = document.querySelector("#portfolioDisplay");
 
@@ -19,27 +15,20 @@ fetch("data.json").then(function (response) {
         //Create the project item class div
         output += '<div class="portfolioItemContainer">';
 
-        //Add the project title
+        //Add the project details
         output += `<div class="portfolioItemTitle"><h3>${project.name}</h3></div>`;
-
-        //Add the project description start
         output += `<div class="portfolioItemDescription">`;
-        
-        //Add the floated image
         output += `<img class="portfolioItemImage" src="${project.imageMain}" onload="imageOrientationSetter(this)" onerror="javascript:this.src='images/portfolioImageNotAvailable.png'" alt="Main portfolio project image for ${project.name}" />`;
-        
-        //Add the project description
         output += `${project.description}`;
         
         //Add the more images link, if the project images property is there
         let projectImages = project.projectImages;
         if (projectImages != undefined) {
-        output += `
-        <br><br><button id="${i}" class="modalOpen">See more images</button>
-        `;    
+            output += `
+            <br><br><button id="${i}" class="modalOpen">See more images</button>
+            `;    
         }
 
-        //Add the project description end
         output += `</div>`;
 
         //Add the project links section start
@@ -50,19 +39,15 @@ fetch("data.json").then(function (response) {
             `;
 
         //Parse and add the projects link data
-        //console.log(project.projectLinks); 
         let projectLinksArray = project.projectLinks;
 
-        //If no links array is present for this project
+        //Handle depending on whether the project links array is present
         if (projectLinksArray === undefined){
-            //Add the no links text
             output += "No links are available for this project."
         }
         else{
             //Iterate through the links array, creating appropriate links based on the linkType property
             projectLinksArray.forEach(function (linkItem){
-                // console.log(linkItem)
-                
                 let linkURL = linkItem.linkURL;
                 let linkImage = undefined;
                 let linkDescriptionSuffix = "";
@@ -98,9 +83,7 @@ fetch("data.json").then(function (response) {
                     //Process the linked image alongside the URL
                     output += `<a href="${linkURL}" target="_blank"><img src="${linkImage}"  alt="Link to ${project.name} on ${linkDescriptionSuffix}" /></a>`;
                 }
-
             })
-
         }
 
         //Add the project links section finish
@@ -108,7 +91,6 @@ fetch("data.json").then(function (response) {
             </div>
         </div>       
         `;
-
 
         //Close out the project item div
         output += '</div>';
@@ -134,8 +116,6 @@ console.log(modal);
 //Modal opener
 function popupOpen(){
     modal.style.display = "block";
-
-    console.log(this.id);
     popupScreenshotFetcher(this.id);
 }
 
@@ -162,7 +142,6 @@ window.onclick = function(event) {
 
 //This function will take the given array id, fetch the relevant screenshots and then update the HTML as required
 function popupScreenshotFetcher(arrayID) {
-
     //Run the fetcher
     fetch("data.json").then(function (response) {
         return response.json();
@@ -173,12 +152,8 @@ function popupScreenshotFetcher(arrayID) {
 
     //Empty string to build up with HTML + project data
     let output = '';
-    
-    //Debug check the array data is the correct target and assign
     let project = data.projects[arrayID]
-    //console.log(targetProject);
     let projectImageArray = project.projectImages;
-    //console.log(projectImageArray);
 
     //Iterate through the image array, adding the image data to the output string
     projectImageArray.forEach(function (imageItem){
@@ -192,21 +167,16 @@ function popupScreenshotFetcher(arrayID) {
         output +=`
         <img class="modalScreenshot" src="${itemImage}" onerror="javascript:this.src='images/portfolioImageNotAvailable.png'" alt="${itemDescription}" />
         `;
-
     })
 
     //Update the display target
     displayTarget.innerHTML = output;
-
-
     })
 }
 
 function imageOrientationSetter(image) {
-    //Fetch the image dimensions
     let imageWidth = image.width;
     let imageHeight = image.height;
-    //console.log(`This image is ${imageWidth} x ${imageHeight}`);
 
     //Set the appropriate class depending on the dimension
     if(imageWidth > imageHeight) {
@@ -214,5 +184,4 @@ function imageOrientationSetter(image) {
     } else {
     image.classList.add("orientationPortrait");
     }
-    
 }

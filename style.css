@@ -460,12 +460,19 @@ section p {
     color: var(--navItem-colour);
 }
 
+@media screen and (max-width: 1000px){ 
+    #navFooter {
+        font-size: 1.25rem;
+    }
+} 
+
 #navFooter:hover {
     color:var(--navItem-colour-highlighted);
     transform: scale(1.08);   
 }
 
 #navCopyrightInfo {
+    text-wrap: nowrap;
     text-align: right;
     margin: 0px 15px;
 

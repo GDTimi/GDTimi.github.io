@@ -440,7 +440,7 @@ section p {
     grid-template-columns: 1fr 1fr;
     gap: 80px;
     font-size: 1.25rem;
-    padding: 5px 10px; 
+    padding: 5px 0px; 
 
     position: fixed;
     width: 100%;
@@ -477,7 +477,7 @@ section p {
 #navCopyrightInfo {
     text-wrap: nowrap;
     text-align: right;
-    margin: 0px 15px;
+    margin: auto 20px;
 
     color: var(--navItem-colour);
 }

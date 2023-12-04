@@ -95,7 +95,7 @@ main {
 
 /* Content section setup */
 section {
-    padding: 50px 30px;
+    padding: 50px 10px;
 }
 
 .sectionHeader {
@@ -199,7 +199,7 @@ section p {
 #portfolioDisplay {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 40px;
+    gap: 30px;
     margin: 20px 5px;
 
 }

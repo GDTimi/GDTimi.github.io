@@ -2,7 +2,7 @@
 :root {
     --navBar-bg-colour:#272727;
     --navItem-colour: #ffffff; 
-    --navItem-colour-highlighted: #fef3c0 ; 
+    --navItem-colour-highlighted: #fef3c0; 
 
     --portfolio-item-bg-colour: lightcyan;
     --portfolio-item-container-bg-colour:#223549;
@@ -138,7 +138,29 @@ section p {
 }
 
 #aboutGrid p {
-    font-size: 2rem;
+    font-size: 1.75rem;
+}
+
+#sectionSkills {
+    padding: 10px;
+    border-radius: 16px;
+    background-color: var(--portfolio-item-bg-colour);
+}
+
+#aboutSkillsHeading{
+    font-size: 1.5rem;
+    margin: 0px auto;
+}
+
+#aboutSkills ul{
+    display: flex;
+    margin: 0px auto;
+    /* list-style:none; */
+}
+
+#aboutSkills li{
+    padding: 10px 50px 5px 0px;
+    font-size: 1.25rem;
 }
 
 @media screen and (max-width: 1000px){ 
@@ -152,6 +174,11 @@ section p {
 
     #aboutImage {
         order: -1;
+    }
+
+    #aboutSkills ul{
+        display: flex;
+        flex-direction: column;
     }
 } 
 

@@ -2,6 +2,7 @@
     "projects": [
       {
         "name": "snippetBank()",
+        "projectIdentifier": "projectSnippetBank",
         "description": "snippetBank() is a solo project I created during the iO Academy Software Developer Essentials coding bootcamp I attended late 2023. The brief was to create a collection app, with the information being stored in a SQL database. I opted to create a code snippet bank, where the user could save useful code snippets, which could then be sorted and searched for when required. The core site was built with PHP using structured OOP for models, entities and view helpers. I implemented unit tests for the functionality that went in, and used JavaScript to handle some data passing and the dynamic form for saving code snippets.",
         "imageMain": "images/snippetBank/snippetBank_Screenshot_1.png",
         "projectLinks": [
@@ -16,6 +17,7 @@
 
       {
         "name": "Book Swap Website",
+        "projectIdentifier": "projectBookSwapFE",
         "description": "Book Swap was an iO Academy team project, to create a website that manages a communal bookshelf. We built the frontend with React and JavaScript to interface with the provided backend API, and gained experience as a team taking on stories, pair programming to do the work, and using Git + GitHub to manage the codebase.",
         "imageMain": "images/bookSwapWebsite/Book_Swap_Screenshot_1.png",
         "projectLinks": [
@@ -25,6 +27,7 @@
 
       {
         "name": "Portfolio Website",
+        "projectIdentifier": "projectPortfolio",
         "description": "This portfolio website has been a project in itself, developed during my time on the iO Academy course. I utilised HTML5 and CSS to build the base, and JavaScript and JSON to handle the portfolio and data. The site was built with responsiveness in mind, as well as giving attention to web accessibility.",
         "imageMain": "images/projectPortfolioWebsite/portfolioProjectMain.png",
         "projectLinks": [
@@ -34,6 +37,7 @@
 
       {
         "name": "Fruitalistic!",
+        "projectIdentifier": "projectFruitalistic",
         "description": "Fruitalistic! is an Angry Birds style game I created. It was a challenge as I wanted to target both mobile (portrait) and PC (landscape) orientations and screen ratios. This made it tricky to handle the general interface and UI positioning, but I think the final outcome balanced it well.",
         "imageMain": "images/gameFruitalistic/Presskit_Fruitalistic_Screenshot_1(Tablet).png",
         "projectLinks": [
@@ -51,6 +55,7 @@
       
       {
         "name": "Flight of the Athena",
+        "projectIdentifier": "projectFlightOfTheAthena",
         "description": "Flight of the Athena is a roguelite twinstick shooter I developed. This game was my first full PC game, released on Steam. It incorporated plenty of procedural generation, for the node based campaign maps, map events, and even the shoot 'em up levels themselves, making each run different every time.",
         "imageMain": "images/gameFlightOfTheAthena/PressKit_Flight_of_the_Athena_Screenshot_1.jpg",
         "projectLinks": [
@@ -68,6 +73,7 @@
       
       {
         "name": "Pachoink!",
+        "projectIdentifier": "projectPachoink",
         "description": "Pachoink! is an interesting mobile game I created, blending Pachinko with brickbreaker style mechanics and pinball elements. It was quite a challenge as my first physics based game, as well as balancing the gameplay elements, but has ended up being my most popular and successful game (so far!).",
         "imageMain": "images/gamePachoink/PressKit_Screenshot_1(iPad_Pro_3rd_Gen).png",
         "projectLinks": [

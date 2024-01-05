@@ -210,6 +210,12 @@ section p {
     } 
 } 
 
+.portfolioItemLink {
+    display: hidden;
+    position:fixed; 
+    margin-top: -70px;
+}
+
 .portfolioItemContainer {
     display: grid;
     grid-template-columns: 1fr;

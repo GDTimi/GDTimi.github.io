@@ -14,6 +14,8 @@ fetch("data.json").then(function (response) {
         //Create the project item class div
         output += '<div class="portfolioItemContainer">';
 
+        output += `<div class="portfolioItemLink" id="${project.projectIdentifier}"></div>`;
+
         //Add the project details
         output += `<div class="portfolioItemTitle"><h3>${project.name}</h3></div>`;
         output += `<div class="portfolioItemDescription">`;

@@ -17,10 +17,11 @@
 
       {
         "name": "Book Swap Website",
-        "projectIdentifier": "projectBookSwapFE",
-        "description": "Book Swap was an iO Academy team project, to create a website that manages a communal bookshelf. We built the frontend with React and JavaScript to interface with the provided backend API, and gained experience as a team taking on stories, pair programming to do the work, and using Git + GitHub to manage the codebase.",
+        "projectIdentifier": "projectBookSwap",
+        "description": "Book Swap was an iO Academy team project, to create a website that manages a communal bookshelf. \n We first built the frontend with React and JavaScript to interface with the provided backend API, and gained experience as a team taking on stories, pair programming to do the work, and using Git + GitHub to manage the codebase. For the second part, we built our own backend JSON API with PHP and Laravel, and stored the data in a MySQL DB. Whilst building out the API, we wrote and maintained the unit tests with PHPUnit.",
         "imageMain": "images/bookSwapWebsite/Book_Swap_Screenshot_1.png",
         "projectLinks": [
+          {"linkURL": "https://github.com/iO-Academy/23-sept-catmode-bookswap-api", "linkType": "GitHub"},
           {"linkURL": "https://github.com/iO-Academy/23-sept-catmode-bookswap-fe", "linkType": "GitHub"}
         ]
       },

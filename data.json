@@ -22,7 +22,8 @@
         "imageMain": "images/bookSwapWebsite/Book_Swap_Screenshot_1.png",
         "projectLinks": [
           {"linkURL": "https://github.com/iO-Academy/23-sept-catmode-bookswap-api", "linkType": "GitHub"},
-          {"linkURL": "https://github.com/iO-Academy/23-sept-catmode-bookswap-fe", "linkType": "GitHub"}
+          {"linkURL": "https://github.com/iO-Academy/23-sept-catmode-bookswap-fe", "linkType": "GitHub"},
+          {"linkURL": "https://23-sept-cat-mode-bookswap-fe.dev.io-academy.uk/", "linkType": "LiveVersion"}
         ]
       },
 

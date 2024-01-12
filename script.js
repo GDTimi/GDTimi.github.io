@@ -74,6 +74,11 @@ fetch("data.json").then(function (response) {
                     linkImage = "https://img.shields.io/badge/steam-%23000000.svg?style=for-the-badge&logo=steam&logoColor=white";
                     linkDescriptionSuffix = "Steam";
                     break;
+
+                    case "LiveVersion":
+                    linkImage = "https://img.shields.io/badge/live%20version-3ea621?style=for-the-badge";
+                    linkDescriptionSuffix = "live servers";
+                    break;
                 }
 
                 //If no recognised link image has been found
